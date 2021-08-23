@@ -1,0 +1,10 @@
+$theme-colors: (
+  "primary": #006f96,
+  "dark": #003359
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+.search-cta .form-control::placeholder {
+    color: white;
+}
